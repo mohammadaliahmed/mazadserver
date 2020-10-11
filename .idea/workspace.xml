@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b57f73d2-cf61-4fdd-9fb3-eceb29d6065e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,32 +15,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020_10_10_124334_add_more_columns_to_users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_10_124334_add_more_columns_to_users_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="e#33#71#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +87,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_10_10_124334_add_more_columns_to_users_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -196,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value=".en&#9;FILE&#9;file://C:/xampp/htdocs/mazad/.env&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/mazad/app/Http/Controllers/UserController.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/layouts/app.blade.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/dashboard.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp/htdocs/mazad/routes/web.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/welcome.blade.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/mazad/routes/api.php&#10;reg&#9;FILE&#9;file://C:/xampp/htdocs/mazad/vendor/laravel/fortify/src/Http/Controllers/RegisteredUserController.php&#10;registerco&#9;null&#9;null&#10;regis&#9;null&#9;null&#10;dash&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/dashboard.blade.php&#10;layout&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="appser&#9;null&#9;null&#10;authser&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/mazad/index.php&#10;.en&#9;FILE&#9;file://C:/xampp/htdocs/mazad/.env&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/mazad/app/Http/Controllers/UserController.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/layouts/app.blade.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/dashboard.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp/htdocs/mazad/routes/web.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/welcome.blade.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/mazad/routes/api.php&#10;reg&#9;FILE&#9;file://C:/xampp/htdocs/mazad/vendor/laravel/fortify/src/Http/Controllers/RegisteredUserController.php&#10;registerco&#9;null&#9;null&#10;regis&#9;null&#9;null&#10;dash&#9;FILE&#9;file://C:/xampp/htdocs/mazad/resources/views/dashboard.blade.php&#10;layout&#9;null&#9;null" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -296,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602315438661</updated>
-      <workItem from="1602315440028" duration="18597000" />
+      <workItem from="1602315440028" duration="19112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18597000" />
+    <option name="totallyTimeSpent" value="19112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -620,9 +604,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
