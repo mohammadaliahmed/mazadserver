@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebController;
+use App\Http\Controllers\AuctionsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('auction', AuctionsController::class);
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard',[WebController::class,'dashboard'])->name('dashboard');
-Route::middleware(['auth:sanctum', 'verified'])->get('/userslist',[WebController::class,'userslist'])->name('userslist');
+Route::post('get_states', [WebController::class, 'getStates'])->name('getStates');
+Route::post('get_cities', [WebController::class, 'getCities'])->name('getCities');
+
+Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
+    Route::get('/dashboard', [WebController::class,'dashboard'])->name('dashboard');
+    Route::get('/userslist', [WebController::class,'userslist'])->name('userslist');
+});
+
 

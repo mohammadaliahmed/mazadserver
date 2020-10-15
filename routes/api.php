@@ -1,9 +1,10 @@
 <?php
 
-use App\Http\Controllers\FileUploadController;
-use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\AuctionsController;
+use App\Http\Controllers\FileUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,5 +31,7 @@ Route::group(['prefix' => 'user'], function () {
     Route::post('updateFcmKey', [UserController::class, 'updateFcmKey']);
     Route::post('completeProfile', 'App\Http\Controllers\UserController@completeProfile');
 
-
 });
+
+
+Route::resource('auction', AuctionsController::class);

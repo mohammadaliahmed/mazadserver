@@ -14,7 +14,6 @@ class UserController extends Controller
     //
     public function register(Request $request)
     {
-
         if ($request->api_username != Constants::$API_USERNAME || $request->api_password != Constants::$API_PASSOWRD) {
             return response()->json([
                 'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
@@ -30,13 +29,11 @@ class UserController extends Controller
                     'code' => 302, 'message' => 'Account already exist',
                 ], 302);
             } else {
-
                 if ($request->email == null) {
                     return response()->json([
                         'code' => 302, 'message' => 'Empty params',
                     ], Response::HTTP_OK);
                 } else {
-
                     $user = new User();
                     $user->name = $request->first_name;
                     $user->email = $request->email;
@@ -67,11 +64,8 @@ class UserController extends Controller
                         ,
                     ], Response::HTTP_OK);
                 }
-
             }
-
         }
-
     }
 
     public function getUserData(Request $request)
